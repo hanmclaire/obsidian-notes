@@ -34,5 +34,21 @@ date: 2025-02-02
 - A *web browser*, or browser for short, is a software application that you use to browse the World Wide Web.
 	- It works by sending a request to a web server and then receives a response containing the content that is to be displayed on the screen of your device.
 - The URL contains the protocol or the HTTP, the domain name, usually the name of the website, and the file path, or the path to the page that is displayed. When you make a request using this URL, the browser and server communicate using a protocol known as the **Hypertext Transfer Protocol** or *HTTP*. 
-> - First, you open a web browser, which is a software application. Next, you type the domain name. Then when you press Enter, the web browser sends a request across a network and connects to another computer on the Internet called a web server, which takes requests for data. The web server responds by sending a webpage back to the browser. Once the browser receives all the response information, the webpage is made visible. The web page is a coded document that is rendered by the browser and then presented visually to you, the end-user. Now that the webpage is loaded in the browser, you interact with that page.
-- 
+>   First, you open a web browser, which is a software application. Next, you type the domain name. Then when you press Enter, the web browser sends a request across a network and connects to another computer on the Internet called a web server, which takes requests for data. The web server responds by sending a webpage back to the browser. Once the browser receives all the response information, the webpage is made visible. The web page is a coded document that is rendered by the browser and then presented visually to you, the end-user. Now that the webpage is loaded in the browser, you interact with that page.
+
+==Web hosting== 
+- But what if you wanted to create your own website? Do you really need your own datacenter with specialized hardware and software? Thankfully, the answer is no.
+- *Web hosting* is a service where you place your website and files on the hosting companies web server. You're essentially renting the space in return for stable and secure storage.
+- Some of the different hosting options available. These can include *shared hosting*, *virtual private hosting*, *dedicated hosting*, and *Cloud hosting*.
+	- The cheapest form of web hosting is known as shared hosting. You pay for a location on a web server containing many web hosting accounts with shared hosting. This means that you also share the service processing power, memory, and bandwidth with other websites that might slow your performance.
+	- Sites with more considerable demands use virtual private surface or VPS. A VPS is a virtual server with dedicated CPU, memory, and bandwidth resources. It will be running on a hardware server with other VPS instances but as the resources are fixed per VPS instance, your website is unlikely to be impacted by the performance of other VPS instances.
+	- The next option up is to use dedicated hosting. This will be a hardware server that is dedicated to you only. All hardware, CPU, memory, and bandwidth resources are yours to use.
+	- Cloud hosting and the Cloud has grown in popularity over the last decade and is often mentioned in various news and services you use. With Cloud hosting, your website is run in something called a Cloud environment, which spans across multiple physical and virtual servers. If a physical or virtual server fails, your website will run on a different server and stay online. The main advantage of Cloud hosting is that you can use as many resources as you need without hardware limitations. However, you pay based on resource use.
+
+| Additional Resources                                                                                      |
+| --------------------------------------------------------------------------------------------------------- |
+| [**What is a Web Server? (NGINX)**](https://www.f5.com/glossary/web-server)                               |
+| [**What is a Web Browser? (Mozilla)**](https://www.mozilla.org/en-US/firefox/browsers/what-is-a-browser/) |
+| [**Who invented the Internet? And why? (Kurzgesagt)**](https://www.youtube.com/watch?v=21eFwbb48sE)       |
+| [**What is Cloud Computing? (Amazon)**](https://www.youtube.com/watch?v=mxT233EdY5c)                      |
+| [**Browser Engines (Wikipedia)**](https://en.wikipedia.org/wiki/Browser_engine)                           |
